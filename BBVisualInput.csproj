@@ -170,6 +170,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Lib\MelonLoader.dll" />
+    <Content Include="Lib\README.md" />
+    <Content Include="MOD\BBVisualInput.dll" />
+    <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 
