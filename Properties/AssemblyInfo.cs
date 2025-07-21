@@ -14,7 +14,7 @@ using MelonLoader;
 
 [assembly: ComVisible(false)]
 
-[assembly: MelonInfo(typeof(BBVisualInput.BBVisualInput), "Beton Brutal VisualInput", "1.0.0", "MiaouZart")]
+[assembly: MelonInfo(typeof(BBVisualInput.BBVisualInput), "Beton Brutal VisualInput", "1.0.1", "MiaouZart")]
 [assembly: MelonGame("", "Beton Brutal")]
 [assembly: MelonAdditionalDependencies("BBModMenu")]
 
