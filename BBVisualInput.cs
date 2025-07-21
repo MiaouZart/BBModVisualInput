@@ -93,9 +93,9 @@ namespace BBVisualInput
                 String categoryName = "InputVisual";
                 var inputVisualSetting = _modMenu.AddSetting(categoryName);
 
-                var xSlider = _modMenu.CreateSlider(categoryName,"XPositon",0, 100, 50, true);
-                var ySlider = _modMenu.CreateSlider(categoryName,"YPosition",0, 100,50 , true);
-                var scaleSlider = _modMenu.CreateSlider(categoryName,"Scale",0.1f, 3f, 1f, false);
+                var xSlider = _modMenu.CreateSlider(categoryName,"XPositon",0, 100, 2, true);
+                var ySlider = _modMenu.CreateSlider(categoryName,"YPosition",0, 100,74 , true);
+                var scaleSlider = _modMenu.CreateSlider(categoryName,"Scale",0.1f, 3f, 0.7f, false);
 
                 Action updatePosition = () => {
                     visualInputRoot.style.top = Length.Percent(ySlider.value);
